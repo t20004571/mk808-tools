@@ -7,7 +7,7 @@ TARGETS := afptool img_unpack img_maker mkkrnlimg
 all: ${TARGETS}
 
 clean:
-        rm ${TARGETS}
+	rm ${TARGETS}
 
 #rkcrc		: gcc -o rkcrc rkcrc.c
 #rkflashtool	: apt-get install libusb-1.0-0-dev 
